@@ -1,0 +1,9 @@
+{
+    "user": "gta5",
+    "password": "rhbvbyfkbcn",
+    "host": "localhost",
+    "port": 3306,
+    "database": "gta5",
+    "connectionLimit": 10,
+    "dateStrings": true
+}

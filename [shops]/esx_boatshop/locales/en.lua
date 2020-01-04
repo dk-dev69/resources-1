@@ -1,0 +1,17 @@
+Locales['en'] = {
+  ['not_enough_money']    = 'У вас не достаточно денег',
+  ['boat_belongs']        = 'an boat with plate ~y~%s~s~ now belongs to ~b~you~s~',
+  ['generic_shopitem']    = '$%s',
+  ['boat_dealer']         = 'Dealership | Boat',
+  ['buy_boat_shop']       = 'do you want to purchase %s for $%s?',
+  ['buy_license']         = 'Buy License',
+  ['no']                  = 'no',
+  ['yes']                 = 'yes',
+  ['boat_purchased']      = 'you bought a boat',
+  ['shop_menu']           = 'Нажмите ~INPUT_CONTEXT~ для доступа к меню',
+  ['shop_awaiting_model'] = 'the vehicle is currently ~g~DOWNLOADING & LOADING~s~ please wait',
+  ['sell_menu']           = 'press ~INPUT_CONTEXT~ to sell your ~y~%s~s~ for ~g~$%s~s~',
+  ['license_missing']     = 'you don\'t have a Boating License!',
+  ['boat_sold_for']       = 'the ~b~%s~s~ has been ~y~sold~s~ for ~g~$%s~s~',
+  ['not_yours']           = 'this vehicle does not belong to you',
+}

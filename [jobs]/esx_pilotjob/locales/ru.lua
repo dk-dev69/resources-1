@@ -1,0 +1,17 @@
+Locales ['ru'] = {
+	['clothes_hint']					= 'Нажмите ~INPUT_CONTEXT~ чтобы ~y~сменить одежду',
+	['vehicle_hint']					= 'Нажмите ~INPUT_CONTEXT~ чтобы ~y~открыть ангар',
+	['job_hint']						= 'press ~INPUT_CONTEXT~ to ~y~open the menu',
+	['create_invoice']					= 'Выставить счет',
+	['jobmenu_title']					= 'Меню',
+	['invoice_amount']					= 'Сумма',
+	['airline']							= 'Авиалинии Los Santos',
+	['vehicle_spawner']					= 'Ангар',
+	['civ_clothes']						= 'Гражданская одежда',
+	['pilot_uniform']					= 'Форма пилота',
+	['clothes_menu']					= 'Камера хранения',
+	['too_many_planes']					= 'Самолет уже ~r~в пути~w~',
+	['no_nil_invoice']					= 'Неверная ~y~сумма',
+	['no_player_nearby']				= 'Нет ~b~игроков~w~ по близости!',
+	['deleter_hint']					= 'Нажмите ~INPUT_CONTEXT~ чтобы открыть ~y~магазин ~b~воздушной техники.',
+}

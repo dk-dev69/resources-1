@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "pricedown";
+    src: url( "pricedown.ttf" );
+}
+
+#menu {
+    position: absolute;
+    overflow: hidden; 
+    left: 25%; 
+    top: 35%;
+    width: 70%;
+    height: 60%; 
+}
+
+#menu div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    max-height: 100%;
+}
+
+#menu button, button:hover, button:active, button:focus {
+    border-radius: 6px;
+    border: none;
+}
+
+#menu button { 
+    background: linear-gradient( to bottom, rgba( 0, 0, 0, 0.4 ), rgba(0, 0, 0, 0.4) );
+    color: white; 
+    font-family: 'pricedown', sans-serif;
+    font-size: 20px;
+    padding: 10px 24px; 
+    margin: 8px 8px 8px 8px;
+    cursor: pointer; 
+    width: 200px; 
+    display: block; 
+    text-transform: uppercase;
+    
+}
+
+#menu button:hover {
+    background: linear-gradient( to bottom, rgba( 105, 105, 105, 0.4 ), rgba( 105, 105, 105, 0.4 ) );
+}
+
+#menu button:active {
+    background: linear-gradient( to bottom, rgba( 105, 105, 105, 0.4 ), rgba( 105, 105, 105, 0.4 ) );
+}
+
+button:focus {outline:0;}

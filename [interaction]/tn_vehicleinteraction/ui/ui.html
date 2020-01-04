@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+        <script src="ui.js" type="text/javascript"></script>
+        <link href="ui.css" rel="stylesheet" type="text/css"/>
+    </head>
+
+    <body>
+		<div id="Menu" style="display: none;">
+            
+            <div id="mainmenu">
+                <button class="menuoption" data-action="ToggleDoor">Toggle Door</button>
+                <button class="menuoption" data-sub="leo-Actions">Police Actions</button>
+                <button class="menuoption" data-action="exit">Exit</button>
+            </div>
+
+            <div id="leo-Actions" data-parent="mainmenu" style="display: none;">
+                    <button class="menuoption" data-action="grabAr">Put/take Ar15 from car</button>
+                    <button class="menuoption" data-action="grabShotgun">Put/take shotgun from car</button>
+
+                    <!-- Not finished  -->
+                    <button class="menuoption" data-action="Put">Put person in car (must be cuffed)</button>
+                    <button class="menuoption" data-action="Take">Take person out of car</button>
+    		</div>
+        </div>
+    </body>
+</html>

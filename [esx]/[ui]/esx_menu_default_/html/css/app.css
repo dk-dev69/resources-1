@@ -1,0 +1,466 @@
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url('../fonts/Roboto-Regular.ttf');
+}
+
+.menu {
+  font-family: 'Roboto', sans-serif;
+  min-width  : 300px;
+  max-width: 50%;
+  color      : #fff;
+  left: 50;
+  top : 110; 
+  position   : absolute;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.25), 0 4px 5px rgba(0,0,0,0.22);
+
+}
+
+.menu.align-left {
+  right: 40;
+  top : 80; 
+
+}
+
+.menu.align-top-left {
+  left: 40;
+  top : 100; 
+}
+
+.menu.align-top {
+  left: 40;
+  top : 80; 
+}
+
+.menu.align-top-right {
+  left: 40;
+  top : 280; 
+}
+
+.menu.align-right {
+  left: 40;
+  top : 80; 
+}
+
+.menu.align-bottom-right {
+  left: 40;
+  top : 80; 
+}
+
+.menu.align-bottom {
+  left: 40;
+  top : 80; 
+}
+
+.menu.align-bottom-left {
+  right: 40;
+  bottom : 80; 
+}
+.menu.align-center {
+  left: 40;
+  top : 80; 
+
+}
+
+.menu .head {
+  font-family: 'Roboto', sans-serif;  
+  font-size: 1.4rem;
+  background: linear-gradient(to left,#243b55,#141e30);
+  text-align      : center;
+  height          : 50px;
+  line-height     : 50px;
+  color: #869fb1;
+  font-style: oblique;
+
+
+}
+.menu .head_tatoo {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.4rem;
+
+  background-image: url("../img/header/tatoo.png");
+  text-align      : center;
+  height          : 50px;
+  line-height     : 50px;
+  color : white;
+  font-style: oblique;
+}
+.men
+.menu .head_dmv {
+  font-family: 'Roboto', sans-serif; 
+  font-size: 1.4rem;
+
+  background-image: url("../img/header/autoecole.jpg");
+  text-align      : center;
+  height          : 50px;
+  line-height     : 50px;
+  color : white;
+  font-style: oblique;
+}
+.menu .head_garage {
+  font-family: 'Roboto', sans-serif;  
+  font-size: 1.4rem;
+
+  background-image: url("../img/header/garage.jpg");
+  text-align      : center;
+  height          : 50px;
+  line-height     : 50px;
+  color : white;
+  font-style: oblique;
+}
+.menu .head_concess {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.4rem;
+
+  background-image: url("../img/header/Concessionnaire.jpg");
+  text-align      : center;
+  height          : 50px;
+  line-height     : 50px;
+  color : white;
+  font-style: oblique;
+}
+.menu .head_identity {
+  font-family: 'Roboto', sans-serif;  
+  font-size: 1.4rem;
+
+  background-image: url("../img/header/identite.png");
+  text-align      : center;
+  height          : 50px;
+  line-height     : 50px;
+  color : white;
+  font-style: oblique;
+}
+.menu .head_vetement {
+  font-family: 'Roboto', sans-serif;  
+  font-size: 1.4rem;
+
+  background-image: url("../img/header/suburban.png");
+  text-align      : center;
+  height          : 50px;
+  line-height     : 50px;
+  color : white;
+  font-style: oblique;
+}
+.menu .head_lscustom {
+  font-family: 'Roboto', sans-serif;  
+  font-size: 1.4rem;
+
+  background-image: url("../img/header/lscus.png");
+  text-align      : center;
+  height          : 50px;
+  line-height     : 50px;
+  color : white;
+  font-style: oblique;
+}
+
+.menu .head_vehicle {
+  font-family: 'Roboto', sans-serif;  
+  font-size: 1.4rem;
+
+  background-image: url("../img/header/vehicle.png");
+  text-align      : center;
+  height          : 50px;
+  line-height     : 50px;
+  color : white;
+  font-style: oblique;
+}
+
+.menu .head_Magasin {
+  font-family: 'Roboto', sans-serif;  
+  font-size: 1.4rem;
+
+  background-image: url("../img/header/masque.jpg");
+  text-align      : center;
+  height          : 50px;
+  line-height     : 50px;
+  color : white;
+  font-style: oblique;
+}
+
+
+.menu .head_skin {
+  font-family: 'Roboto', sans-serif;  
+  font-size: 1.4rem;
+
+  background-image: url("../img/header/skin_menu.png");
+  text-align      : center;
+  height          : 50px;
+  line-height     : 50px;
+  color : white;
+  font-style: oblique;
+}
+
+.menu .head_perso {
+  font-family: 'Roboto', sans-serif; 
+  font-size: 1.4rem;
+
+  background-image: url("../img/header/menu.jpg");
+  text-align      : center;
+  height          : 50px;
+  line-height     : 50px;
+  color : white;
+  font-style: oblique;
+}
+
+.menu .head_accesoires {
+  font-family: 'Roboto', sans-serif; 
+  font-size: 1.4rem;
+
+  background-image: url("../img/header/Accessoires.png");
+  text-align      : center;
+  height          : 50px;
+  line-height     : 50px;
+  color : white;
+  font-style: oblique;
+}
+
+
+.menu .head_valider {
+  font-family: 'Roboto', sans-serif;  
+  font-size: 1.4rem;
+
+  background-image: url("../img/header/valider.png");
+  text-align      : center;
+  height          : 50px;
+  line-height     : 50px;
+  color : white;
+  font-style: oblique;
+}
+
+.menu .head_Modo{
+  font-family: 'Roboto', sans-serif; 
+  font-size: 1.4rem;
+
+  background-image: url("../img/header/moderation.jpg");
+  text-align      : center;
+  height          : 50px;
+  line-height     : 50px;
+  color : white;
+  font-style: oblique;
+}
+
+
+.menu .head_meconcernant{
+  font-family: 'Roboto', sans-serif; 
+  font-size: 1.4rem;
+
+  background-image: url("../img/header/Me_concernant.jpg");
+  text-align      : center;
+  height          : 50px;
+  line-height     : 50px;
+  color : white;
+  font-style: oblique;
+}
+
+.menu .head_gps{
+ font-family: 'Roboto', sans-serif;  
+  font-size: 1.4rem;
+
+  background-image: url("../img/header/gpsrapide.jpg");
+  text-align      : center;
+  height          : 50px;
+  line-height     : 50px;
+  color : white;
+  font-style: oblique;
+}
+
+
+.menu .head_Inventaire{
+  font-family: 'Roboto', sans-serif; 
+  font-size: 1.4rem;
+
+  background-image: url("../img/header/Inventaire.jpg");
+  text-align      : center;
+  height          : 50px;
+  line-height     : 50px;
+  color : white;
+  font-style: oblique;
+}
+
+.menu .head_mask{
+  font-family: 'Roboto', sans-serif; 
+  font-size: 1.4rem;
+
+  background-image: url("../img/header/masque.jpg");
+  text-align      : center;
+  height          : 50px;
+  line-height     : 50px;
+  color : white;
+  font-style: oblique;
+}
+
+.menu .head_emploi{
+  font-family: 'Roboto', sans-serif; 
+  font-size: 1.4rem;
+
+  background-image: url("../img/header/poleemploi.png");
+  text-align      : center;
+  height          : 50px;
+  line-height     : 50px;
+  color : white;
+  font-style: oblique;
+}
+.menu .head_emploid{
+  font-family: 'Roboto', sans-serif; 
+  font-size: 1.4rem;
+
+  background-image: url("../img/header/universite.jpg");
+  text-align      : center;
+  height          : 50px;
+  line-height     : 50px;
+  color : white;
+  font-style: oblique;
+}
+.menu .head_superete{
+ font-family: 'Roboto', sans-serif;  
+  font-size: 1.4rem;
+
+  background-image: url("../img/header/247.png");
+  text-align      : center;
+  height          : 50px;
+  line-height     : 50px;
+  color : white;
+  font-style: oblique;
+}
+
+.menu .head_job{
+  font-family: 'Roboto', sans-serif;  
+  font-size: 1.4rem;
+
+  background-image: url("../img/header/actions_metier.jpg");
+  text-align      : center;
+  height          : 50px;
+  line-height     : 50px;
+  color : white;
+  font-style: oblique;
+}
+
+.menu .head_patron{
+  font-family: 'Roboto', sans-serif; 
+  font-size: 1.4rem;
+
+  background-image: url("../img/header/gestionpatron.png");
+  text-align      : center;
+  height          : 50px;
+  line-height     : 50px;
+  color : white;
+  font-style: oblique;
+}
+.menu .head_employe{
+  font-family: 'Roboto', sans-serif;  
+  font-size: 1.4rem;
+
+  background-image: url("../img/header/Sans_titre-1.png");
+  text-align      : center;
+  height          : 50px;
+  line-height     : 50px;
+  color : white;
+  font-style: oblique;
+}
+.menu .head_entreprise{
+  font-family: 'Roboto', sans-serif; 
+  font-size: 1.4rem;
+
+  background-image: url("../img/header/Entreprise.png");
+  text-align      : center;
+  height          : 50px;
+  line-height     : 50px;
+  color : white;
+  font-style: oblique;
+}
+
+.menu .head_ammu{
+  font-family: 'Roboto', sans-serif; 
+  font-size: 1.4rem;
+
+  background-image: url("../img/header/ammunation.jpg");
+  text-align      : center;
+  height          : 50px;
+  line-height     : 50px;
+  color : white;
+  font-style: oblique;
+}
+.menu .head_anim{
+  font-family: 'Roboto', sans-serif;  
+  font-size: 1.4rem;
+
+  background-image: url("../img/header/animations.jpg");
+  text-align      : center;
+  height          : 50px;
+  line-height     : 50px;
+  color : white;
+  font-style: oblique;
+}
+
+.menu .head_Factures{
+  font-family: 'Roboto', sans-serif;  
+  font-size: 1.4rem;
+
+  background-image: url("../img/header/factures.jpg");
+  text-align      : center;
+  height          : 50px;
+  line-height     : 50px;
+  color : white;
+  font-style: oblique;
+}
+
+.menu .head_metier{
+  font-family: 'Roboto', sans-serif; 
+  font-size: 1.4rem;
+
+  background-image: url("../img/header/actions_metier.jpg");
+  text-align      : center;
+  height          : 50px;
+  line-height     : 50px;
+  color : white;
+  font-style: oblique;
+}
+.menu .head_vestiaire{
+  font-family: 'Roboto', sans-serif;  
+  font-size: 1.4rem;
+
+  background-image: url("../img/header/vestiaire.jpg");
+  text-align      : center;
+  height          : 50px;
+  line-height     : 50px;
+  color : white;
+  font-style: oblique;
+}
+
+
+.menu .categorie {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2px;
+  height: 40px;
+  line-height     : 50px;
+  padding: 0 10px;
+  color :#ecf0f1;
+  background-color: rgba(52, 73, 94, 1);
+  text-transform: uppercase;
+  font-weight: bold;
+  position: left;
+  top: 0px;
+
+}
+.menu .menu-items {
+    max-height : 550px;
+    overflow-y : hidden;
+    background-color: rgba(52, 73, 94, 0.7);
+}
+.menu .menu-items .menu-item {
+  display         : block;
+  font-size       : 1.2rem;
+  height          : 30px;
+  line-height     : 30px;
+  color           : white;
+  text-align      : left;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu .menu-items .menu-item.selected {
+  background-color: #ecf0f1;
+  color :#2c3e50;
+}
+
+

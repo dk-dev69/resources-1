@@ -1,0 +1,123 @@
+<html>
+<head>
+	<title>logs</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/meyer.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+
+
+	<div class="page">
+
+		<div id="close" onclick="closeMenu();"><p>ЗАКРЫТЬ</p></div>
+
+		<div class="content">
+		  <div class="content__container">
+		    <p class="content__container__text">
+		      ОТЧЕТЫ
+		    </p>
+		    
+		    <ul class="content__container__list">
+		      <li class="content__container__list__item">это круто!</li>
+		      <li class="content__container__list__item">are EDITED. by GameTNT !</li>
+		      <li class="content__container__list__item">are useful !</li>
+		      <li class="content__container__list__item">say bye to trollers !</li>
+		    </ul>
+		  </div>
+		</div>
+		<div id="page-basics">
+
+
+
+			<div id="menu">
+				<button id="bStyle1" onclick="showPage(0);">Home<span class="icon-right"></span><span class="icon-right after" after="Home"></button>
+				<br/><br/><br/>
+				<button id="bStyle1" onclick="showPage(3);">Подключение<span class="icon-right"></span><span class="icon-right after" after="Connections"></button>
+				<br/><br/><br/>
+				<button id="bStyle1" onclick="showPage(4);">Убийства<span class="icon-right"></span><span class="icon-right after" after="Kills"></button>
+				<br/><br/><br/>
+				<button id="bStyle1" onclick="showPage(5);">Транспорт<span class="icon-right"></span><span class="icon-right after" after="Vehicles"></button>
+				<br/><br/><br/>
+				<button id="bStyle1" onclick="showPage(6);">Оружие<span class="icon-right"></span><span class="icon-right after" after="Weapons"></button>
+
+				<div id="separator"></div>
+
+				<div id="research">
+					<div class="search">
+				      <input type="text" class="searchTerm" placeholder="Поиск по тегу (имя игрока, steam...)">
+				      <button type="submit" class="searchButton" onclick="startSearch();">
+				        <i class="fa fa-search"></i>
+				     </button>
+				   </div>
+				</div>
+			</div>
+		</div>
+
+
+		<div id="home">
+			<div id="stats">
+				
+				<div class="statsBlock" id="kills">
+					<p id="sTitle">1000</p>
+					<p id="sDesc">СМЕРТИ</p>
+				</div>
+
+				<div class="statsBlock" id="PoliceVehicles">
+					<p id="sTitle">1000</p>
+					<p id="sDesc">Полицейские машины</p>
+				</div>
+
+				<div class="statsBlock" id="blVehicules">
+					<p id="sTitle">1000</p>
+					<p id="sDesc">Транспорт в черном списке</p>
+				</div>
+
+
+				<div class="statsBlock" id="blWeapons">
+					<p id="sTitle">1000</p>
+					<p id="sDesc">Оружие в черном списке</p>
+				</div>
+
+			</div>
+		</div>
+
+
+		<div id="logArrays">
+			<div id="container">
+				<ul>
+				</ul>
+			</div>
+		</div>
+
+
+		<div id="search">
+			<div id="sContainerConnexions" >
+				<ul>
+				</ul>
+			</div>
+
+			<div id="sContainerKills">
+				<ul>
+				</ul>
+			</div>
+
+			<div id="sContainerVehicules">
+				<ul>
+				</ul>
+			</div>
+
+			<div id="sContainerblWeapons">
+				<ul>
+				</ul>
+			</div>
+		</div>
+
+		<p id="indications">#TNT_SCRIPTER .</p>
+	</div>
+
+</body>
+</html>

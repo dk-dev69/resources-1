@@ -1,0 +1,66 @@
+hashToWeapon = {}
+hashToWeapon[0x99B507EA] = "Knife"
+hashToWeapon[0x678B81B1] = "Nightstick"
+hashToWeapon[0x4E875F73] = "Hammer"
+hashToWeapon[0x958A4A8F] = "Bat"
+hashToWeapon[0x440E4788] = "GolfClub"
+hashToWeapon[0x84BD7BFD] = "Crowbar"
+
+hashToWeapon[0x1B06D571] = "Pistol"
+hashToWeapon[0x5EF9FEC4] = "CombatPistol"
+hashToWeapon[0x22D8FE39] = "APPistol"
+hashToWeapon[0x99AEEB3B] = "Pistol50"
+hashToWeapon[0x3656C8C1] = "StunGun"
+
+hashToWeapon[0x13532244] = "MicroSMG"
+hashToWeapon[0x2BE6766B] = "SMG"
+hashToWeapon[0xEFE7E2DF] = "AssaultSMG"
+hashToWeapon[0x0A3D4D34] = "CombatPDW"
+hashToWeapon[0xBFEFFF6D] = "AssaultRifle"
+hashToWeapon[0x83BF0278] = "CarbineRifles"
+hashToWeapon[0xAF113F99] = "AdvancedRifle"
+hashToWeapon[0x9D07F764] = "MG"
+hashToWeapon[0x7FD62962] = "CombatMG"
+
+hashToWeapon[0x1D073A89] = "PumpShotgun"
+hashToWeapon[0x7846A318] = "SawnOffShotgun"
+hashToWeapon[0xE284C527] = "AssaultShotgun"
+hashToWeapon[0x9D61E50F] = "BullpupShotgun"
+
+
+hashToWeapon[0x5FC3C11] = "SniperRifle"
+hashToWeapon[0xC472FE2] = "HeavySniper"
+
+hashToWeapon[0xA284510B] = "GrenadeLauncher"
+hashToWeapon[0x4DD2DC56] = "GrenadeLauncherSmoke"
+hashToWeapon[0xB1CA77B1] = "RPG"
+hashToWeapon[0x42BF8A85] = "Minigun"
+
+hashToWeapon[0x93E220BD] = "Grenade"
+hashToWeapon[0x2C3731D9] = "StickyBomb"
+hashToWeapon[0xFDBC8A50] = "SmokeGrenade"
+hashToWeapon[0xA0973D5E] = "BZGas"
+hashToWeapon[0x24B17070] = "Molotov"
+
+hashToWeapon[0x60EC506] = "FireExtinguisher"
+
+hashToWeapon[0x34A67B97] = "PetrolCan"
+
+hashToWeapon[0xBFD21232] = "SNSPistol"
+hashToWeapon[0xC0A3098D] = "SpecialCarbine"
+hashToWeapon[0xD205520E] = "HeavyPistol"
+hashToWeapon[0x7F229F94] = "BullpupRifle"
+
+hashToWeapon[0x63AB0442] = "HomingLauncher"
+hashToWeapon[0xAB564B93] = "ProximityMine"
+hashToWeapon[0x787F0BB] = "Snowball"
+hashToWeapon[0x83839C4] = "VintagePistol"
+hashToWeapon[0x92A27487] = "Dagger"
+hashToWeapon[0x7F7497E5] = "Firework"
+hashToWeapon[0xA89CB99E] = "Musket"
+hashToWeapon[0xC734385A] = "MarksmanRifle"
+hashToWeapon[0x3AABBBAA] = "HeavyShotgun"
+hashToWeapon[0x61012683] = "Gusenberg"
+hashToWeapon[0xF9DCBF2D] = "Hatchet"
+hashToWeapon[0x6D544C99] = "Railgun"
+hashToWeapon[0xA2719263] = "Unarmed"

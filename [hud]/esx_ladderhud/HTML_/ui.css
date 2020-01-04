@@ -1,0 +1,135 @@
+.container-fluid {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    display: block;
+    right: 1.5vw;
+    bottom: 0;
+    transition: right 1.0s;
+}
+
+.container {
+    display: flex;
+    margin-bottom: 3px;
+}
+.circle {
+    height: 1vw;
+    width: 1vw;
+    background-color: #3c6382;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 15%;
+    background-repeat: no-repeat;
+    background-size: 0.8vw 0.8vw;
+    background-position: center;
+    opacity: 0.7;
+    
+}
+#circle-hunger {
+    background-image: url("https://softportal.pro/statics/img/1046784.svg");
+    border-left:1px #ffbe76 solid;
+    border-top:1px #ffbe76 solid;
+    border-bottom:1px #ffbe76 solid;
+    margin-right: 10vw;
+    
+    
+}
+#circle-thirst {
+    background-image: url("https://softportal.pro/statics/img/883327.svg");
+    
+    border-left:1px #00a8ff solid;
+    border-top:1px #00a8ff solid;
+    border-bottom:1px #00a8ff solid;
+    margin-right: 10vw;
+   
+    
+}
+#circle-armor {
+    background-image: url("https://softportal.pro/hud/img/armor.svg");
+     border-left:1px #34495e solid;
+    border-top:1px #34495e solid;
+    border-bottom:1px #34495e solid;
+    margin-right: 10vw;
+    
+   
+}
+#circle-hp {
+    background-image: url("https://softportal.pro/statics/img/hp.svg");
+    
+    border-left:1px #2ecc71 solid;
+    border-top:1px #2ecc71 solid;
+    border-bottom:1px #2ecc71 solid;
+    margin-right: 10vw;
+}
+
+.progress {
+    position: absolute;
+    z-index: -1;
+    height: 1vw;
+    width: 10vw;
+    border-radius: 0.1vw;
+    opacity: 0.7;
+    
+}
+#progress-hunger {
+    
+    margin-left: 1vw;
+    border-radius: 0.1vw;
+    border: 1px #ffbe76 solid;
+    background-color: #3c6382;
+    
+}
+
+#progress-thirst {
+    margin-left:1vw;
+    border-radius: 0.1vw;
+    border: 1px #00a8ff solid;
+        background-color: #3c6382;
+   
+
+}
+#progress-armor {
+    margin-left: 1vw;
+    border-radius: 0.1vw;
+    border: 1px #34495e solid;
+        background-color: #3c6382;
+    
+}
+
+#progress-hp {
+    margin-left: 1vw;
+    border-radius: 0.1vw;
+    border: 1px #2ecc71 solid;
+        background-color: #3c6382;
+    
+
+}
+
+.field {
+    margin: 0;
+    padding: 0;
+    height: 100% !important;
+    width: 100%;
+    /*border-radius: 0.5vw;*/
+    transition: width 1.0s;
+}
+#hunger {
+    float: right;
+    vertical-align: center;
+    background-color: #E67E22;
+}
+#thirst {
+    float: left;
+    background-color: #3498DB ;
+}
+
+#armor {
+    float: right;
+    vertical-align: center;
+    background-color: #34495e;
+}
+#hp {
+    float: left;
+    background-color: #2ecc71 ;
+}

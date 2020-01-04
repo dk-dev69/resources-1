@@ -1,0 +1,499 @@
+{
+  "reseau": "Телефон",
+  "warningMessageCount": 250,
+  "themeColor": "#303f9f",
+  "colors": [
+    "#EF5350",
+    "#EC407A",
+    "#AB47BC",
+    "#7E57C2",
+    "#5C6BC0",
+    "#42A5F5",
+    "#29B6F6",
+    "#26C6DA",
+    "#26A69A",
+    "#66BB6A",
+    "#9CCC65",
+    "#D4E157",
+    "#FFCA28",
+    "#FFA726",
+    "#FF7043",
+    "#8D6E63",
+    "#78909C"
+  ],
+
+  "useFormatNumberFrance": false,
+
+  "useWebRTCVocal": false,
+  "RTCConfig": {
+    "iceServers": [{
+      "urls": ["turn:84.54.13.31"],
+      "username": "testuser",
+      "credential": "superpwd"
+    }]
+  },
+
+  "//": "REQUIRE https://github.com/citizenfx/screenshot-basic or set false",
+  "enableTakePhoto": true,
+  "fileUploadService_Url": "https://wew.wtf/upload.php",
+  "fileUploadService_Field": "files[]",
+
+ "background" : {
+
+      "Гитара": "01.jpg",
+      "Los Santos": "02.jpg",
+      "Погоня": "03.jpg",
+      "Принцесса": "04.jpg",
+      "Полицейский бум": "05.jpg",
+      "Тревор и Майкл": "06.jpg",
+      "Сан-Андреас": "07.jpg",
+	  "Пост апакалипсис": "08.jpg",
+	  "Pacman": "21.jpg",
+	  "Лес": "10.jpg",
+	  "Цунами": "11.jpg",
+	  "Лев": "12.jpg",
+	  "Космос": "13.jpg",
+	  "Текстура": "14.jpg",
+	  "Синий фон": "15.jpg",
+	  "Черный фон": "16.jpg",
+	  "Коричневый фон": "17.jpg",
+	  
+	  
+	  
+      "Свои обои": "URL"
+    },
+    "background_default": {
+      "label": "Guitare",
+      "value": "01.jpg"
+    },
+
+
+  "coque": {
+    "Sansumg S8": "s8.png",
+    "Iphone X": "iphonex.png"
+  },
+  
+  "coque_default": {
+    "label": "Sansumg S8",
+    "value": "s8.png"
+  },
+
+
+ "serviceCall": [
+    {
+      "display": "Police",
+      "icon": "/html/static/img/icons_app/policier.png",
+      "subMenu": [
+        {
+          "title": "Отправить сообщение",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+            "number": "police"
+          }
+        },
+       
+    {
+      "title": "Полиция",
+      "eventName": "esx_addons_gcphone:call",
+      "type": {
+      "number": "police",
+      "message": "Мне нужна срочная помощь, пожалуйста, помогите!"
+      }
+        }
+      ]
+    },
+    {
+      "display": "FBI",
+      "icon": "/html/static/img/icons_app/fib.png",
+      "subMenu": [
+        {
+          "title": "Отправить сообщение",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+            "number": "fbi"
+          }
+        }
+      ]
+    },
+    
+        {
+      "display": "Скорая помощь",
+      "icon": "/html/static/img/icons_app/ambulancier.png",
+      "subMenu": [
+        {
+          "title": "Отправить сообщение",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+            "number": "ambulance"
+          }
+        },
+        {
+          "title": "Позвонить",
+          "eventName": "gcphone:autoCallNumber",
+          "type": {
+            "number": "ambulance"
+          }
+        }
+      ]
+    },
+    {
+      "display": "Картель",
+      "icon": "/html/static/img/icons_app/itfaiye.png",
+      "subMenu": [
+        {
+          "title": "Отправить сообщение",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+            "number": "cartel"
+          }
+        },
+        {
+          "title": "Позвонить",
+          "eventName": "gcphone:autoCallNumber",
+          "type": {
+            "number": "cartel"
+          }
+        }
+      ]
+    },
+    
+    {
+      "display": "Механик",
+      "icon": "/html/static/img/icons_app/mecano.png",
+      "subMenu": [
+        {
+          "title": "Механик",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+          "number": "mechanic"
+          }
+        }
+      ]
+    },
+    {
+      "display": "Армия",
+      "backgroundColor": "grey",
+	  "icon": "/html/static/img/icons_app/militar.png",
+      "subMenu": [
+        {
+          "title": "Отправить сообщение",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+            "number": "militar"
+          }
+        }
+      ]
+    },
+    
+    {
+	  "display": "Такси",
+      "icon": "/html/static/img/icons_app/taxi.png",
+      "subMenu": [
+        {
+          "title": "Такси",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+            "number": "taxi"
+          }
+        }
+      ]
+    },
+    {
+      "display": "Bank",
+      "icon": "/html/static/img/icons_app/bank.png",
+      "subMenu": [
+        {
+          "title": "Мобильный банк",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+            "number": "bank"
+          }
+        }
+      ]
+    }
+  ],
+
+  "apps": [
+    {
+      "name": "Telefon",
+      
+      "en_US__name": "Telefon",
+	  "ru_RU__name": "Телефон",
+      "icons": "/html/static/img/icons_app/call.png",
+      "routeName": "appels",
+      "inHomePage": true
+    },
+    {
+      "name": "Сообщения",
+	  "ru_RU__name": "Сообщения",
+      "icons": "/html/static/img/icons_app/sms.png",
+      "routeName": "messages",
+      "inHomePage": true,
+      "puceRef": "nbMessagesUnread"
+    },
+    {
+      "name": "Контакты",
+	  "ru_RU__name": "Контакты",
+      "icons": "/html/static/img/icons_app/contacts.png",
+      "routeName": "contacts",
+      "inHomePage": true
+    },
+    {
+      "name": "Настройки",
+      
+      "en_US__name": "System",
+	  "ru_RU__name": "Настройки",
+      "icons": "/html/static/img/icons_app/settings.png",
+      "routeName": "parametre",
+      "inHomePage": true
+    },
+    {
+      "name": "Банк",
+      
+      "en_US__name": "Bank",
+	  "ru_RU__name": "Мобильный банк",
+      "icons": "/html/static/img/icons_app/bank.png",
+      "routeName": "bank",
+      "inHomePage": true
+    },
+    {
+      "name": "Фондовый рынок",
+      "en_US__name": "Bourse",
+	  "ru_RU__name": "Фондовый рынок",
+      "icons": "/html/static/img/icons_app/bourse.png",
+      "routeName": "bourse",
+      "enabled": true
+    },
+    {
+      "name": "Камера",
+      
+      "en_US__name": "Camera",
+	  "ru_RU__name": "Камера",
+      "icons": "/html/static/img/icons_app/photo.png",
+      "routeName": "photo"
+    },
+    {
+      "name": "Whatsapp",
+      "icons": "/html/static/img/icons_app/tchat.png",
+      "routeName": "tchat"
+    },
+    {
+      "name": "Приколы",
+      "icons": "/html/static/img/icons_app/9gag.png",
+      "routeName": "9gag"
+    }
+  ],
+  
+  "defaultLanguage": "ru_RU",
+  
+  "language": {
+
+	"ru_RU": {
+      "NAME": "Русский",
+      "PHONE_WARNING_MESSAGE": "Уведомление",
+      "PHONE_WARNING_MESSAGE_MESS": "Новое сообщение",
+      "CONFIRM": "Принять",
+      "CANCEL": "Отменить",
+      "APP_MESSAGE_SEND_PHOTO": "Отправить фото",
+      "APP_CONFIG_TITLE": "Параметры",
+      "APP_CONFIG_MY_MUNBER": "Мой номер",
+      "APP_CONFIG_WALLPAPER": "Обои",
+      "APP_CONFIG_CASE": "Обложка телефона",
+      "APP_CONFIG_ZOOM": "Размер телефона",
+      "APP_CONFIG_VOLUME": "Громкость",
+      "APP_CONFIG_LANGUAGE": "Язык",
+      "APP_CONFIG_MOUSE_SUPPORT": "Управление мышью",
+      "APP_CONFIG_RESET": "Сброс настроек",
+      "APP_CONFIG_RESET_CONFIRM": "УДАЛИТЬ ВСЕ",
+      "APP_PHONE_CALL": "Вызов",
+      "APP_PHONE_DELETE": "Удалить",
+      "APP_PHONE_DELETE_ALL": "Удалить все",
+      "APP_PHONE_TITLE": "Номер телефона",
+      "APP_PHONE_MENU_FAVORITES": "Избранное",
+      "APP_PHONE_MENU_RECENTS": "Последние",
+      "APP_PHONE_MENU_CONTACTS": "Контакты",
+      "APP_PHONE_ENTER_NUMBER": "Введите номер",
+      "APP_BANK_TITLE": "Банк",
+      "APP_BOURSE_TITLE": "Фондовая биржа",
+      "APP_CONTACT_TITLE": "Детали контакта",
+      "APP_CONTACT_NEW": "Новый контакт",
+      "APP_CONTACT_EDIT": "Изменить контакт",
+      "APP_CONTACT_SAVE": "Сохранить",
+      "APP_CONTACT_CANCEL": "Отменить",
+      "APP_CONTACT_DELETE": "Удалить",
+      "APP_CONTACT_LABEL_NAME": "Имя Фамилия",
+      "APP_CONTACT_LABEL_NUMBER": "Номер",
+      "APP_MESSAGE_TITLE": "Новые сообщения",
+      "APP_MESSAGE_NEW_MESSAGE": "Новое сообщение",
+      "APP_MESSAGE_ERASE_CONVERSATION": "Удалить вызов",
+      "APP_MESSAGE_ERASE_ALL_CONVERSATIONS": "Удалить все сообщения.",
+      "APP_MESSAGE_SEND_GPS": "Отправить GPS метку",
+      "APP_MESSAGE_SET_GPS": "GPS положение",
+      "APP_MESSAGE_ZOOM_IMG": "Увеличить",
+      "APP_MESSAGE_DELETE": "Удалить",
+      "APP_MESSAGE_SMS": "SMS сообщения",
+      "APP_MESSAGE_CONTACT_TITLE": "Контакты",
+      "APP_MESSAGE_CONTRACT_ENTER_NUMBER": "Введите номер",
+      "APP_MESSAGE_PLACEHOLDER_ENTER_MESSAGE": "Отправить сообщение",
+      "APP_DARKTCHAT_TITLE": "Темный чат",
+      "APP_DARKTCHAT_NEW_CHANNEL": "Добавить канал",
+      "APP_DARKTCHAT_DELETE_CHANNEL": "Удалить канал",
+      "APP_DARKTCHAT_CANCEL": "Отменить",
+      "APP_DARKTCHAT_PLACEHOLDER_ENTER_MESSAGE": "Введите сообщение",
+      "APP_TWITTER_NAME": "Twitter",
+      "APP_TWITTER_VIEW_TWITTER": "Twitter",
+      "APP_TWITTER_VIEW_TOP_TWEETS": "top tweets",
+      "APP_TWITTER_VIEW_TWEETER": "tweets",
+      "APP_TWITTER_VIEW_SETTING": "parameter",
+      "APP_TWITTER_NEW_ACCOUNT_USERNAME": "Username (>= 4)",
+      "APP_TWITTER_NEW_ACCOUNT_PASSWORD": "Password (>= 6)",
+      "APP_TWITTER_NEW_ACCOUNT_PASSWORD_CONFIRM": "Confirm password",
+      "APP_TWITTER_NEW_ACCOUNT_AVATAR": "URL of your avatar",
+      "APP_TWITTER_PLACEHOLDER_MESSAGE": "What's the matter with you?",
+      "APP_TWITTER_BUTTON_ACTION_TWEETER": "Tweeter",
+      "APP_TWITTER_ACCOUNT_LOGIN": "Log in to the website",
+      "APP_TWITTER_ACCOUNT_LOGOUT": "Disconnect from location",
+      "APP_TWITTER_ACCOUNT_PARAM": "My account",
+      "APP_TWITTER_ACCOUNT_AVATAR": "Changing the Avatar",
+      "APP_TWITTER_ACCOUNT_CHANGE_PASSWORD": "Change password",
+      "APP_TWITTER_ACCOUNT_NEW": "New account",
+      "APP_TWIITER_ACCOUNT_SAVE": "registration",
+      "APP_TWIITER_ACCOUNT_CREATE": "Create the account",
+      "APP_TWIITER_ACCOUNT_CANCEL": "abort",
+      "APP_TWITTER_ACCOUNT_USERNAME": "username",
+      "APP_TWITTER_ACCOUNT_PASSWORD": "password",
+      "APP_TWITTER_NOTIFICATION": "notification",
+      "APP_TWITTER_NOTIFICATION_WHEN": "To be notified",
+      "APP_TWITTER_NOTIFICATION_ALL": "All News",
+      "APP_TWITTER_NOTIFICATION_MENTION": "Just mention",
+      "APP_TWITTER_NOTIFICATION_NEVER": "Nobody",
+      "APP_TWITTER_NOTIFICATION_SOUND": "Play a sound",
+      "APP_TWITTER_NOTIFICATION_SOUND_YES": "Yes",
+      "APP_TWITTER_NOTIFICATION_SOUND_NO": "No",
+      "APP_TWITTER_NOTIF_ACCOUNT_CREATE_SUCCESS": "Your Twitter account has been created.",
+      "APP_TWITTER_NOTIF_ACCOUNT_CREATE_ERROR": "Your Twitter account could not be created (username already used?)",
+      "APP_TWITTER_NOTIF_LOGIN_SUCCESS": "You are connected to Twitter.",
+      "APP_TWITTER_NOTIF_LOGIN_ERROR": "Invalid account / passwords",
+      "APP_TWITTER_NOTIF_AVATAR_SUCCESS": "Your avatar has been changed!",
+      "APP_TWITTER_NOTIF_NEW_PASSWORD_SUCCESS": "Your password has been changed.",
+      "APP_TWITTER_NOTIF_NEW_PASSWORD_ERROR": "Oops.... Your password could not be changed.",
+      "APP_TWITTER_NOTIF_NEW_PASSWORD_MISS_MATCH": "Passwords do not match",
+      "APP_TWITTER_NOTIF_NEW_PASSWORD_LENGTH_ERROR": "Password too short",
+
+      "TIMEAGO": [
+        "только что",
+        ["%s second ago", "%s секунд назад"],
+        ["%s minute ago", "%s минут назад."],
+        ["%s hour ago", "%s часов назад."],
+        ["%s day ago", "%s дней назад."],
+        ["%s week ago", "%s недели назад."],
+        ["%s month ago", "%s месяцев назад."],
+        ["%s year ago", "%s лет назад."]
+      ]
+    },
+	
+    "en_US": {
+      "NAME": "English",
+      "PHONE_WARNING_MESSAGE": "memento",
+      "PHONE_WARNING_MESSAGE_MESS": "news",
+      "CONFIRM": "Accept",
+      "CANCEL": "abort",
+      "APP_CONFIG_TITLE": "parameter",
+      "APP_CONFIG_MY_MUNBER": "My number",
+      "APP_CONFIG_WALLPAPER": "wallpaper",
+      "APP_CONFIG_CASE": "telephone cover",
+      "APP_CONFIG_ZOOM": "zoom",
+      "APP_CONFIG_VOLUME": "volume",
+      "APP_CONFIG_LANGUAGE": "Language",
+      "APP_CONFIG_MOUSE_SUPPORT": "Mouse control",
+      "APP_CONFIG_RESET": "format",
+      "APP_CONFIG_RESET_CONFIRM": "DELETE ALL",
+      "APP_PHONE_CALL": "call",
+      "APP_PHONE_DELETE": "Delete",
+      "APP_PHONE_DELETE_ALL": "Delete all.",
+      "APP_PHONE_TITLE": "Telephone number",
+      "APP_PHONE_MENU_FAVORITES": "favourites",
+      "APP_PHONE_MENU_RECENTS": "Newest",
+      "APP_PHONE_MENU_CONTACTS": "contacts",
+      "APP_PHONE_ENTER_NUMBER": "Enter a number",
+      "APP_BANK_TITLE": "bench",
+      "APP_BOURSE_TITLE": "stock exchange",
+      "APP_CONTACT_TITLE": "contact details",
+      "APP_CONTACT_NEW": "New contact",
+      "APP_CONTACT_EDIT": "Change the contact",
+      "APP_CONTACT_SAVE": "registration",
+      "APP_CONTACT_CANCEL": "abort",
+      "APP_CONTACT_DELETE": "Delete",
+      "APP_CONTACT_LABEL_NAME": "First name - Last name",
+      "APP_CONTACT_LABEL_NUMBER": "number",
+      "APP_MESSAGE_TITLE": "news",
+      "APP_MESSAGE_NEW_MESSAGE": "New Message",
+      "APP_MESSAGE_ERASE_CONVERSATION": "Delete the call",
+      "APP_MESSAGE_ERASE_ALL_CONVERSATIONS": "Delete all conv.",
+      "APP_MESSAGE_SEND_GPS": "Send GPS coupling",
+      "APP_MESSAGE_SET_GPS": "GPS position",
+      "APP_MESSAGE_ZOOM_IMG": "Enlarge",
+      "APP_MESSAGE_DELETE": "Delete",
+      "APP_MESSAGE_SMS": "text message",
+      "APP_MESSAGE_CONTACT_TITLE": "contacts",
+      "APP_MESSAGE_CONTRACT_ENTER_NUMBER": "Enter a number",
+      "APP_MESSAGE_PLACEHOLDER_ENTER_MESSAGE": "Send a message",
+      "APP_DARKTCHAT_TITLE": "Dark Chat",
+      "APP_DARKTCHAT_NEW_CHANNEL": "Add a channel",
+      "APP_DARKTCHAT_DELETE_CHANNEL": "Delete the channel",
+      "APP_DARKTCHAT_CANCEL": "abort",
+      "APP_DARKTCHAT_PLACEHOLDER_ENTER_MESSAGE": "Enter a message",
+      "APP_TWITTER_NAME": "Twitter",
+      "APP_TWITTER_VIEW_TWITTER": "Twitter",
+      "APP_TWITTER_VIEW_TOP_TWEETS": "top tweets",
+      "APP_TWITTER_VIEW_TWEETER": "tweets",
+      "APP_TWITTER_VIEW_SETTING": "parameter",
+      "APP_TWITTER_NEW_ACCOUNT_USERNAME": "Username (>= 4)",
+      "APP_TWITTER_NEW_ACCOUNT_PASSWORD": "Password (>= 6)",
+      "APP_TWITTER_NEW_ACCOUNT_PASSWORD_CONFIRM": "Confirm password",
+      "APP_TWITTER_NEW_ACCOUNT_AVATAR": "URL of your avatar",
+      "APP_TWITTER_PLACEHOLDER_MESSAGE": "What's the matter with you?",
+      "APP_TWITTER_BUTTON_ACTION_TWEETER": "Tweeter",
+      "APP_TWITTER_ACCOUNT_LOGIN": "Log in to the website",
+      "APP_TWITTER_ACCOUNT_LOGOUT": "Disconnect from location",
+      "APP_TWITTER_ACCOUNT_PARAM": "My account",
+      "APP_TWITTER_ACCOUNT_AVATAR": "Changing the Avatar",
+      "APP_TWITTER_ACCOUNT_CHANGE_PASSWORD": "Change password",
+      "APP_TWITTER_ACCOUNT_NEW": "New account",
+      "APP_TWIITER_ACCOUNT_SAVE": "registration",
+      "APP_TWIITER_ACCOUNT_CREATE": "Create the account",
+      "APP_TWIITER_ACCOUNT_CANCEL": "abort",
+      "APP_TWITTER_ACCOUNT_USERNAME": "username",
+      "APP_TWITTER_ACCOUNT_PASSWORD": "password",
+      "APP_TWITTER_NOTIFICATION": "notification",
+      "APP_TWITTER_NOTIFICATION_WHEN": "To be notified",
+      "APP_TWITTER_NOTIFICATION_ALL": "All News",
+      "APP_TWITTER_NOTIFICATION_MENTION": "Just mention",
+      "APP_TWITTER_NOTIFICATION_NEVER": "Nobody",
+      "APP_TWITTER_NOTIFICATION_SOUND": "Play a sound",
+      "APP_TWITTER_NOTIFICATION_SOUND_YES": "Yes",
+      "APP_TWITTER_NOTIFICATION_SOUND_NO": "No",
+      "APP_TWITTER_NOTIF_ACCOUNT_CREATE_SUCCESS": "Your Twitter account has been created.",
+      "APP_TWITTER_NOTIF_ACCOUNT_CREATE_ERROR": "Your Twitter account could not be created (username already used?)",
+      "APP_TWITTER_NOTIF_LOGIN_SUCCESS": "You are connected to Twitter.",
+      "APP_TWITTER_NOTIF_LOGIN_ERROR": "Invalid account / passwords",
+      "APP_TWITTER_NOTIF_AVATAR_SUCCESS": "Your avatar has been changed!",
+      "APP_TWITTER_NOTIF_NEW_PASSWORD_SUCCESS": "Your password has been changed.",
+      "APP_TWITTER_NOTIF_NEW_PASSWORD_ERROR": "Oops.... Your password could not be changed.",
+      "APP_TWITTER_NOTIF_NEW_PASSWORD_MISS_MATCH": "Passwords do not match",
+      "APP_TWITTER_NOTIF_NEW_PASSWORD_LENGTH_ERROR": "Password too short",
+
+      "TIMEAGO": [
+        "just now",
+        ["%s second ago", "%s seconds ago"],
+        ["%s minute ago", "%s minutes ago"],
+        ["%s hour ago", "%s hours ago"],
+        ["%s day ago", "%s days ago"],
+        ["%s week ago", "%s weeks ago"],
+        ["%s month ago", "%s months ago"],
+        ["%s year ago", "%s years ago"]
+      ]
+    }
+  
+  }
+}

@@ -1,0 +1,23 @@
+Locales['ru'] = {
+  ['used_bread'] = 'Вы съели ~y~1 ~s~ батон ~b~хлеба~s~',
+  ['used_water'] = 'Вы выпили ~y~1-x~s~ бутылку ~b~воды~s~',
+  ['used_icetea'] = 'Вы выпили ~y~1-x~s~ ~b~чай~s~',
+  ['used_beer'] = 'Вы выпили ~y~1-x~s~ банку ~b~пива~s~',
+  ['used_wine'] = 'Вы выпили ~y~1-x~s~ бутылку ~b~вина~s~',
+  ['used_vodka'] = 'Вы выпили ~y~1-x~s~ бутылку ~b~водки~s~',
+  ['used_tequila'] = 'Вы выпили ~y~1-x~s~ одну бутылку ~b~текилы~s~',
+  ['used_whisky'] = 'Вы выпили ~y~1-x~s~ бутылку ~b~виски~s~',
+  ['used_limonade'] = 'Вы выпили ~y~1-x~s~ бутылку ~b~лимонада~s~',
+  ['used_drpepper'] = 'Вы выпили ~y~1-x~s~ банку ~b~Dr Pepper~s~',
+  ['used_energy'] = 'Вы выпили ~y~1-x~s~ банку ~b~энергетика~s~',
+  ['used_mixapero'] = 'Вы выпили ~y~1-x~s~ ~b~Mixapero~s~',
+  ['used_jager'] = 'Вы выпили ~y~1-x~s~ банку ~b~ягуара~s~',
+  ['used_rhum'] = 'Вы выпили ~y~1-x~s~ бутылку ~b~рома~s~',
+  ['used_vodkaenergy'] = 'Вы выпили ~y~1-x~s~ бутылку ~b~Vodka Energy~s~',
+  ['used_absinthe'] = 'Вы выпили ~y~1-x~s~ бутылку ~b~абсента~s~',
+  ['used_martini'] = 'Вы выпили ~y~1-x~s~ бутылку ~b~мартини~s~',
+  ['used_chocolate'] = 'Вы съели ~y~1 ~s~ ~b~шоколоадку~s~',
+  ['used_chips'] = 'Вы съели ~y~1 ~s~ ~b~шоколоадку~s~',
+  ['used_cola'] = 'Вы выпили ~y~1-x~s~ бутылку ~b~колы~s~',
+  ['used_cupcake'] = 'Вы съели ~y~1-x~s~ пачку ~b~печенья~s~'
+}

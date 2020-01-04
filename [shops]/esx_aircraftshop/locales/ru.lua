@@ -1,0 +1,17 @@
+Locales['ru'] = {
+  ['not_enough_money']    = 'У вас не достаточно денег',
+  ['aircraft_belongs']    = 'Транспортное средство с номером ~y~%s~s~ теперь ~b~ваше~s~',
+  ['generic_shopitem']    = '$%s',
+  ['aircraft_dealer']     = 'Магазин воздушной техники',
+  ['buy_aircraft_shop']   = 'Вы хотите купить %s за $%s?',
+  ['buy_license']         = 'Купить лицензию',
+  ['no']                  = 'Нет',
+  ['yes']                 = 'Да',
+  ['aircraft_purchased']  = 'Вы купили воздушную технику',
+  ['shop_menu']           = 'Нажмите ~INPUT_CONTEXT~ для доступа к меню',
+  ['shop_awaiting_model'] = 'Транспортное средство ~g~Загружается~s~ ожидайте',
+  ['sell_menu']           = 'Нажмите ~INPUT_CONTEXT~ для продажи ~y~%s~s~ за ~g~$%s~s~',
+  ['license_missing']     = 'У вас нет лицензии воздушный транспорт!',
+  ['aircraft_sold_for']   = '~b~%s~s~ было ~y~продано~s~ за ~g~$%s~s~',
+  ['not_yours']           = 'Это транспортное средство не принадлежит вам',
+}

@@ -1,0 +1,16 @@
+Locales['en'] = {
+	['GPS_info'] = 'Новая работа была отмечена на вашем ~y~GPS',
+	['cancel_mission'] = 'You have ~r~cancelled ~s~the mission',
+	['pickup'] = 'Нажмите ~INPUT_CONTEXT~ чтобы осмотреть место работы',
+	['end_service'] = 'Работа завершена',
+	['take_service'] = 'Начать работу',
+	['end_service_notif'] = 'Ended ~r~Service',
+	['take_service_notif'] = 'Started ~g~Service',
+	['start_job'] = 'Press ~b~F10 ~w~to start the job',
+	['Vehicle_Menu_Title'] = 'Service Vehicle',
+	['in_vehicle'] = '~r~You must be out of your vehicle!',
+	['vehicle_broken'] = '~r~You need to repair the vehicle before continuing!',
+	['bad_vehicle'] = 'You can only store the ~b~Service Vehicle',
+	['not_good_veh'] = '~r~You must be in your service vehicle!',
+	['stop_npc'] = 'Job ~g~Complete~s~ : Return to the depot',
+}
